@@ -10,6 +10,9 @@
     "deploy": "gh-pages -d ./dist"
   },
   "devDependencies": {
+    "@dimforge/rapier3d": "^0.14.0",
+    "@dimforge/rapier3d-compat": "^0.14.0",
+    "@monogrid/gainmap-js": "^3.0.5",
     "@types/dat.gui": "^0.7.13",
     "@types/three": "^0.163.0",
     "dat.gui": "^0.7.9",
@@ -18,5 +21,8 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-top-level-await": "^1.4.1"
+  },
+  "dependencies": {
+    "lil-gui": "^0.19.2"
   }
 }
